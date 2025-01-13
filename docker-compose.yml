@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  mindfulnessjournal:
+    image: mindfulnessjournal
+    build:
+      context: .
+      dockerfile: ./Dockerfile
